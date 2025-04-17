@@ -15,8 +15,7 @@ unsigned long previousMillis = 0;
 unsigned int multiplier = MAX_PERIOD / LOG_PERIOD;
 
 File logFile;
-const char* location = "Smelter Park";  // Update as needed
-
+const char* location = "Smelter Park";  // Update location as needed
 void tube_impulse() {
   counts++;
 }
